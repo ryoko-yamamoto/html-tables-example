@@ -1,0 +1,91 @@
+/* Universal Style Rules*/
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation*/
+body nav {
+  padding-top: 10px;
+  display: inline-block;
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 12px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Table Style Rules */
+.table-wrapper {
+  margin: 10px 70px 20px;
+  box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  /*border: none;*/
+  border-radius: 5px;
+  /*border-collapse: collapse;*/
+  width: 100%;
+  white-space: nowrap;
+  background-color: #f3f3f3;
+  font-size: 16px;
+}
+
+caption {
+  margin: 14px 0px;
+  caption-side: bottom;
+  font-size: 14px;
+  font-style: italic;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: center;
+}
+
+table tbody th,
+table tfoot th {
+  border-right: solid 1px #c9c9c9;
+}
+
+/* Color Table Header */
+table thead th {
+  background-color: rgb(28, 118, 97);
+  color: white;
+}
+
+table thead th:nth-child(odd) {
+  background-color: #1b2d40;
+}
+
+/* Color Even Rows */
+table tr:nth-child(even) {
+  background-color: #e8e8e8;
+}

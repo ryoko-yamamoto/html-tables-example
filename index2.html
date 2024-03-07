@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main2.css" />
+    <title>HTML Table Example</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Course</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="./index3.html">Animal</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2 id="product-comparison-chart">Product Comparison Chart</h2>
+    <div class="table-wrapper">
+      <table aria-labelledby="product-comparison-chart">
+        <caption>
+          Fig:Comparison of the features between the products.
+        </caption>
+        <thead>
+          <tr>
+            <th id="none" scope="col"></th>
+            <th id="product-a" scope="col">Product A</th>
+            <th id="product-b" scope="col">Product B</th>
+            <th id="product-c" scope="col">Product C</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="durability" scope="row">Durability</th>
+            <td headers="product-a durability">10/10</td>
+            <td headers="product-b durability">5/10</td>
+            <td headers="product-c durability">7/10</td>
+          </tr>
+          <tr>
+            <th id="design" scope="row">Design</th>
+            <td headers="product-a design">3/10</td>
+            <td headers="product-b design">8/10</td>
+            <td headers="product-c design">7/10</td>
+          </tr>
+          <tr>
+            <th id="usability" scope="row">Usability</th>
+            <td headers="product-a usability">7/10</td>
+            <td headers="product-b usability">10/10</td>
+            <td headers="product-c usability">5/10</td>
+          </tr>
+          <tr>
+            <th id="price" scope="row">Price</th>
+            <td headers="product-a price">9/10</td>
+            <td headers="product-b price">7/10</td>
+            <td headers="product-c price">3/10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

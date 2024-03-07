@@ -1,0 +1,82 @@
+/* Universal Style Rules*/
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation*/
+body nav {
+  padding-top: 10px;
+  display: inline-block;
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 12px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 18px;
+
+  letter-spacing: 1px;
+}
+
+/* Table Style Rules */
+.table-wrapper {
+  margin: 10px 70px 20px;
+}
+
+table {
+  /*border: none;*/
+  border-radius: 8px;
+  /*border: solid 1px black;*/
+  /*border-collapse: collapse;*/
+  width: 100%;
+  white-space: nowrap;
+  font-size: 16px;
+  background-color: gainsboro;
+}
+
+caption {
+  margin: 14px 0px;
+  caption-side: bottom;
+  font-size: 14px;
+  font-style: italic;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: center;
+  background-color: white;
+}
+
+table tbody th {
+  color: blue;
+}
+
+/* Color Table Header */
+table thead th {
+  background-color: blue;
+  color: white;
+}

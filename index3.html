@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main3.css" />
+    <title>HTML Table Example</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Course</a></li>
+          <li><a href="./index2.html">Product</a></li>
+          <li><a href="#">Animal</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2 id="Animal Chart">Animal Chart</h2>
+    <div class="table-wrapper">
+      <table aria-labelledby="Animal Chart">
+        <caption>
+          Fig: Animal Chart.
+        </caption>
+        <thead>
+          <tr>
+            <th id="course" scope="col">Course</th>
+            <th id="monday" scope="col">Monday</th>
+            <th id="tuesday" scope="col">Tuesday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="math" scope="row">Math</th>
+            <td headers="math monday">10:00 - 11:00</td>
+            <td headers="math tuesday">12:00 - 13:00</td>
+          </tr>
+          <tr>
+            <th id="biology" scope="row">Biology</th>
+            <td headers="biology monday">11:00 - 12:00</td>
+            <td headers="biology tuesday">16:00 - 17:00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th id="capstone">Capstone</th>
+            <td headers="capstone monday">-</td>
+            <td headers="capstone tuesday">-</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>
