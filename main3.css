@@ -37,23 +37,21 @@ h2 {
   padding: 30px 0;
   text-align: center;
   font-size: 18px;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 /* Table Style Rules */
 .table-wrapper {
-  margin: 10px 70px 20px;
-  box-shadow: 0px 16px 50px rgba(0, 0, 0, 0.2);
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 table {
-  /*border: none;*/
   border-radius: 5px;
-  /*border-collapse: collapse;*/
+  border-collapse: collapse;
   width: 100%;
   white-space: nowrap;
-  background-color: #f3f3f3;
+  background-color: #ffdcd1;
   font-size: 16px;
 }
 
@@ -64,28 +62,27 @@ caption {
   font-style: italic;
 }
 
+#none {
+  background-color: pink;
+}
+
 table th,
 table td {
   padding: 8px;
   text-align: center;
+  border: solid 1px red;
 }
 
-table tbody th,
-table tfoot th {
-  border-right: solid 1px #c9c9c9;
+table tfoot {
+  background-color: #ffedea;
 }
 
 /* Color Table Header */
 table thead th {
-  background-color: rgb(28, 118, 97);
-  color: white;
-}
-
-table thead th:nth-child(odd) {
-  background-color: #1b2d40;
+  background-color: #f89647;
 }
 
 /* Color Even Rows */
 table tr:nth-child(even) {
-  background-color: #e8e8e8;
+  background-color: #ffedea;
 }

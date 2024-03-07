@@ -84,6 +84,7 @@ table thead th {
 table tr:nth-child(even) {
   background-color: #c7dbf7;
 }
+
 table tr:nth-child(odd) {
   background-color: #dae8fc;
 }
